@@ -25,7 +25,7 @@ function createPlayerRow(player){
         row.appendChild(lastname);
 
     let team = document.createElement("td")
-        team.textContent = player.team.name;
+        team.textContent = player.team.full_name;
         row.appendChild(team);
         
     return row;
